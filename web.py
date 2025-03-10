@@ -12,7 +12,6 @@ import math
 from matplotlib.gridspec import GridSpec
 from mpl_toolkits.mplot3d import Axes3D
 import io
-from part4 import part4
 
 st.set_page_config(
     page_title="Dormitory Survey Analysis",
