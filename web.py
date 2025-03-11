@@ -31,7 +31,7 @@ st.subheader("President University Student Dormitory Survey", divider="red")
 
 tab1, tab2, tab3, tab4 = st.tabs([
     "Data Overview", 
-    "Statistical Analysis", 
+    "Descriptive Statistics", 
     "Data Visualization", 
     "Statistical Analysis"
     ])
