@@ -1059,16 +1059,13 @@ with tab4:
         # A
         st.subheader("A. Markov Chain Analysis: Long-term Internet Stability Prediction")
         
-        # Create figure
         fig, ax = plt.subplots(figsize=(10, 6))
         
-        # Define transition matrix
         transition_matrix = np.array([
             [0.3, 0.7],  # Stable -> Stable, Stable -> Unstable
             [0.2, 0.8]   # Unstable -> Stable, Unstable -> Unstable
         ])
         
-        # Calculate initial state based on data
         initial_state = np.array([
             df[df['Internet_Stability'] == 'Yes, but sometimes slow'].shape[0] / df.shape[0],
             df[df['Internet_Stability'] == 'No, frequently unstable'].shape[0] / df.shape[0]
